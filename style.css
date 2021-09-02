@@ -6,7 +6,13 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.icons{
+    color:black;
+    font-size: 1em;
+}
+.bold{
+    font-weight: bold;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -89,12 +95,12 @@ a:hover {
     left: 0;
     right: 0;
 }
-
+/*
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
-
+*/
 .b-parallax {
     background-attachment: fixed;
 }
@@ -651,7 +657,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    /*color: #575757!important;*/
 }
 
 .container {
@@ -721,11 +727,11 @@ h3 {
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
-
+/*
 h1 {
     color: #333333!important;
 }
-
+*/
 h4 {
     color: #333333!important;
 }
@@ -753,7 +759,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(255, 245, 219, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,15 +777,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #FFBF9A;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #FFBF9A;
     color: #FFFFFF!important;
 }
 
@@ -789,9 +795,12 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: black!important;
 }
-
+.white_typo{
+    color:white;
+    
+}
 .ltc-white:hover {
     color: #cccccc!important;
 }
