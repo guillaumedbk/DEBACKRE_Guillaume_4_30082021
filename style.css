@@ -13,7 +13,27 @@ body {
 .bold{
     font-weight: bold;
 }
-
+.milieu{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.liste{
+    list-style-type:none;
+    color:black;
+    margin-top: 1em;
+    padding-left: 0em;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.iconn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -682,7 +702,10 @@ a {
     max-width: 520px;
     margin: auto auto auto auto;
 }
-
+.taille{
+    width:2em;
+    height:2em;
+}
 p {
     font-size: 14px;
     color: #5C5757;
